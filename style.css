@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 50px;
+}
+
+.list-container {
+    margin: 18px 0;
+}
+
+.list {
+    display: none;
+}
+
+.item-container {
+    display: flex;
+}
+.item-value {
+    width: 100%;
+}
+.item-remove-button {
+    border: none;
+    background-color: white;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#search-bar {
+    width: 100%;
+    line-height: 2.5em;
+    font-size: 17px;
+}
